@@ -1,0 +1,12 @@
+/* 
+@use	carrega mixins, functions e variáveis de outras folhas de estilos Sass e combina o CSS de diversas folhas de estilo juntos.
+@forward	carrega uma folha de estilo Sass e torna os mixins, functions e variáveis disponíveis quando a folha de estilo é carregada pela regra do @use.
+@import	estende as regras de CSS para carregar styles, mixins, functions e variáveis de outras folhas de estilo.
+@mixins e @include	facilitam a reutilização de trechos de código.
+@function	define funções customizadas que podem ser utilizadas em expressões.
+@extend	permite que os seletores herdem estilos uns dos outros.
+@at-root	coloca estilos dentro dele na raiz do documento CSS.
+@error	faz com que a compilação falhe com uma mensagem de erro.
+@warn	imprime um aviso sem parar totalmente a compilação.
+@debug	imprime uma mensagem para fins de debugging. 
+*/

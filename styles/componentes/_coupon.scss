@@ -1,0 +1,54 @@
+@import "../abstract/variaveis";
+
+#coupon {
+    background-color: $cor-secundaria;
+    padding: 4rem;
+    text-align: center;
+    .texto {
+        h2 {
+            margin: 2rem;
+            font-size: $tamanho-texto / 2;
+        }
+    }    
+     .form { 
+        .input {
+            margin: 0 auto;
+            width: 575px;
+            border-radius: 20px;
+            border: 4px solid #ffffff;
+            background: #ffffff;
+            input {
+                border-radius: 20px;
+                height: 30px;
+                border: none;
+                width: 540px;
+                outline: none;
+                text-align: center;
+                font-size: $tamanho-texto / 2.8;                
+            }
+            &:hover, &:focus-within {
+                box-shadow: 1px 1px 8px 1px $cor-primaria;
+                outline: none;
+            }
+        }
+        button {
+            text-decoration: uppercase;
+            margin-top: 0.75rem;
+            outline: none;
+            height: 40px;
+            text-align: center;
+            width: 130px;
+            background-color: $cor-titulo;    
+            color: #ffffff; 
+            letter-spacing: 1px;
+            font-size: $tamanho-texto / 2.8;   
+            cursor: pointer;
+            border-radius: 20px; 
+            border: none;
+            &:hover {
+                background-color: $cor-primaria;
+                color: $cor-terciaria;                             
+            }
+        }
+    }
+}
